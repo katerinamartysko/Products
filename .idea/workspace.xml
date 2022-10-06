@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b154855-9601-46c9-a3ba-bec7e5f233f5" name="Changes" comment="change gitignore" />
+    <list default="true" id="1b154855-9601-46c9-a3ba-bec7e5f233f5" name="Changes" comment="create react app and refactor this fails">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/products.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/products.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="create_react_app" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +60,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ekaterina/Desktop/Code/typescript/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -60,6 +75,7 @@
       <workItem from="1664908463080" duration="21208000" />
       <workItem from="1665078547931" duration="3874000" />
       <workItem from="1665082444589" duration="1045000" />
+      <workItem from="1665087443675" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="create react app and refactor">
       <created>1665082233988</created>
@@ -82,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665082718053</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create react app and refactor this fails">
+      <created>1665088144762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665088144762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create react app and refactor" />
     <MESSAGE value="change gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
+    <MESSAGE value="create react app and refactor this fails" />
+    <option name="LAST_COMMIT_MESSAGE" value="create react app and refactor this fails" />
   </component>
 </project>
