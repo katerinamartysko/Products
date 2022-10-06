@@ -1,0 +1,32 @@
+.product {
+    width: 100%;
+    border: 2px solid #61b5d1;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 24px;
+    margin: 12px;
+}
+
+.image {
+    width: 16%;
+}
+
+.button {
+    padding: 4px 16px;
+    margin-bottom: 6px;
+    border: 2px solid #61b5d1;
+
+}
+
+.bthBgActive {
+    background: #61b5d1;
+}
+
+.bthBg {
+    background: #f0da69
+}
+.rate {
+    font-weight: bold;
+}
