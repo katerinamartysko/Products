@@ -9,7 +9,22 @@
 .loading {
     justify-content: center;
 }
+
 .error {
     color: red;
     justify-content: center;
+}
+
+.bthModal {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    background: red;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    border-radius: 9999px;
+    padding: 3px 16px 3px 16px;
+
+
 }

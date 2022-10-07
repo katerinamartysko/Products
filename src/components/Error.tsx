@@ -1,10 +1,11 @@
 import React from 'react';
 
-interface ErrorProps {
-  error: string;
+interface Props {
+  error: string | null;
 }
 
-const Error = ({ error }: ErrorProps) => {
+const Error = ({ error }: Props) => {
+  if (!error) return null;
   return (
     <p className="error">{error}</p>
   );

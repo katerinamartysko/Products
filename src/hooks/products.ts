@@ -7,9 +7,14 @@ export const useProducts = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  const addProduct = (product: IProduct) => {
+    setProducts(prev => [...prev, product]);
+
+  };
+
   async function fetchProduct() {
     try {
-      setError('')
+      setError('');
       setLoading(true);
       const response = await axios.get<IProduct[]>('https://fakestoreapi.com/products?limit=8');
       setProducts(response.data);
@@ -17,7 +22,7 @@ export const useProducts = () => {
     } catch (e: unknown) {
       const error = e as AxiosError;
       setLoading(false);
-      setError(error.message)
+      setError(error.message);
     }
 
   }
@@ -25,5 +30,5 @@ export const useProducts = () => {
   useEffect(() => {
     fetchProduct();
   }, []);
-  return{products, loading, error}
-}
+  return { products, loading, error, addProduct };
+};
