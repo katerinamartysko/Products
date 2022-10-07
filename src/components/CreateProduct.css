@@ -1,0 +1,16 @@
+.createProduct {
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 8px;
+    border: 1px solid grey;
+    width: 78%;
+}
+
+.bthCreate {
+    padding: 8px 16px 8px 16px;
+    border: 1px solid grey;
+    margin: 4px 8px;
+    background: #f0da69;
+}
+.bthCreate:hover {
+    color: white;
+}
